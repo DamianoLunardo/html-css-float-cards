@@ -50,10 +50,7 @@ body {
 img {
 	max-width: 100%;
     margin-top: 0px;
-    
-}
-
-
+} 
 
 .container {
 	max-width: 900px;
@@ -63,15 +60,11 @@ img {
 
 .col {
 	 float: left;
-	 width: 33.33%; 
+	  
 	 width: calc(100% / 3); 
 	 padding: 20px; 
 	 width: calc((100% - 40px) / 3);
 	 margin-right: 20px;
-     
-     
-     
-
 }
 
 .clearfix::after {
@@ -86,12 +79,15 @@ img {
 }
 
 .card {
-	border: 1px solid;
+	/*border: 1px solid;*/
 	padding: 20px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
-   
-    text-align: right;
+    
+    vertical-align:top;/* here */
+    width: 500px;
+    height: 300px;
+    
 }
 
 

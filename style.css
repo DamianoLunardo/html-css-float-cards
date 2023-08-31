@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka:wght@700&family=Open+Sans&family=Poppins:wght@200&display=swap');
+
+/*font-family: 'Anton', sans-serif;
+font-family: 'Fredoka', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    color: blueviolet;
+    text-align: center;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: gray;
+}
+
+
+
+body {
+	background-color: #dedede;
+}
+
+img {
+	max-width: 100%;
+    margin-top: 0px;
+    
+}
+
+
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+    
+}
+
+.col {
+	 float: left;
+	 width: 33.33%; 
+	 width: calc(100% / 3); 
+	 padding: 20px; 
+	 width: calc((100% - 40px) / 3);
+	 margin-right: 20px;
+     
+     
+
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+    
+}
+
+.col:nth-child(3n) {
+	margin-right: 0;
+}
+
+.card {
+	border: 1px solid;
+	padding: 20px;
+    background-color: black;
+    color: white;
+   
+    text-align: right;
+}
+
+.featured-image {
+	border: 1px solid;
+}
+
+
+
+    
+
+
+    
+  
+    

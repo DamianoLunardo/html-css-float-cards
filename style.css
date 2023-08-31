@@ -37,6 +37,11 @@ header p {
     text-align: center;
 }
 
+img {
+    float: left;
+    width: 100px;
+}
+
 /* box per le descriozioni */
 .description {
     float: left;
@@ -48,6 +53,27 @@ header p {
     margin-bottom: 40px;
     box-shadow: 2px 2px 7px black;
 }
+
+.photo-container {
+    float: left;
+    margin-right: 20px;
+}
+
+.description h3 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+
+
+
+
 
 
 

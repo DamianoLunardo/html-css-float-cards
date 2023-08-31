@@ -20,9 +20,17 @@ header {
     text-align: center;
 }
 
-p {
+.top-text {
     font-family: 'Poppins', sans-serif;
     text-align: center; 
+}
+
+.email {
+    color: rgb(0, 132, 255);
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
 }
 
 footer {
@@ -31,7 +39,9 @@ footer {
     background-color: gray;
 }
 
-
+p {
+    font-family: 'Poppins', sans-serif;
+}
 
 body {
 	background-color: #dedede;
@@ -60,6 +70,7 @@ img {
 	 margin-right: 20px;
      
      
+     
 
 }
 
@@ -83,9 +94,7 @@ img {
     text-align: right;
 }
 
-.featured-image {
-	border: 1px solid;
-}
+
 
 
 
